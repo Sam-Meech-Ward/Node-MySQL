@@ -1,0 +1,21 @@
+{
+  "name": "myapp",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "database.js",
+  "scripts": {
+    "dev": "npx nodemon app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.1",
+    "express": "^5.0.0-beta.1",
+    "mysql2": "^2.3.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  }
+}
